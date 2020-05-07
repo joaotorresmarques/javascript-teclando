@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+h1{
+    margin: 80px auto;
+    color: #fff;
+    max-width: 400px;
+}
+
+h1 p{
+    color:red;
+}
+h1::after{
+    content: '|';
+    margin-left: 1px;
+    opacity: 1;
+    animation: identifier .7s infinite;
+}
+
+@keyframes identifier {
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
