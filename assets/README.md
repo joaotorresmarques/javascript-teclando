@@ -8,4 +8,4 @@ Tentando reconquistar a namorada com uma frase amorosa. hehe
 
 ## Visualização
 
-![](assets/javascript-tecla.gif)
+![](javascript-tecla.gif)
